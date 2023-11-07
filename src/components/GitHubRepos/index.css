@@ -1,0 +1,58 @@
+/* write your css code */
+
+.list-card {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px;
+  margin: 10px;
+}
+
+.img-container {
+  border: 200px solid #000000;
+}
+
+.repository-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.repository-name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+}
+.repository-description {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+
+  margin: 0px;
+}
+.repository-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-top: 5px;
+}
+.count {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+}
+.published-time {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.avatar {
+  height: 120px;
+  width: 120px;
+}
